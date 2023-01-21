@@ -16,9 +16,10 @@ const {
 const { Event, useEvent } = require('@agile-ts/event');
 const { toast } = require('react-toastify');
 
-const githubOrgUrl = 'https://github.com/agile-ts';
-const domain = 'https://agile-ts.org';
-const npmOrgUrl = 'https://www.npmjs.com/package/@agile-ts';
+const githubOrgUrl = 'https://github.com/dom-assistant/';
+const domain = 'https://dom-assistant.ru';
+const npmOrgUrl = 'https://www.npmjs.com/package/';
+const dockerOrgUrl = 'https://www.npmjs.com/package/';
 
 const customFields = {
   copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DevBenno">BennoDev</a> and <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile/graphs/contributors">these awesome people</a>`,
@@ -65,7 +66,7 @@ const customFields = {
   announcementBar: {
     id: 'announcement',
     content: [
-      `❓ If you have any questions, don't hesitate to join our <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/T9GzreAwPH">Community Discord</a> ️`,
+      `❓ Если у вас есть вопросы, вы можете их задать на нашем <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/T9GzreAwPH">Форуме</a> ️`,
       `🎉 If you like AgileTs, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile">GitHub</a>`,
       `⏰ If you want to stay update to date, follow use on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/AgileTypescript">Twitter</a>`,
     ],
